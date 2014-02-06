@@ -40,7 +40,7 @@ commands = []
 
 commands.push ["gnome-terminal", "<Super>Return"]
 commands.push ["emacsclient -c", "<Super>e"]
-commands.push ["gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell --method org.gnome.Shell.Eval \"Main.lookingGlass.toggle();\"", "<Super>x"]
+commands.push ["gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell --method org.gnome.Shell.Eval \"Main.lookingGlass.toggle();\"", "<Super>l"]
 
 
 ################
